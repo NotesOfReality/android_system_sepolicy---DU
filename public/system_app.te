@@ -5,3 +5,5 @@
 ###
 
 type system_app, domain;
+
+allow system_app default_prop:property_service set;
